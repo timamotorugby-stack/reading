@@ -1,0 +1,36 @@
+body {
+  margin: 24px;
+  color: #1a1a1a;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#status:empty {
+  display: none;
+}
+
+ul {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+li + li {
+  margin-top: 16px;
+}
+
+a {
+  color: #0b57d0;
+}
+
+.meta {
+  margin: 4px 0 0;
+  color: #444;
+  font-size: 0.9rem;
+}

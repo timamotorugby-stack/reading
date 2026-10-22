@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "en-20261022-ab12",
+  "language": "en",
+  "level": 1,
+  "topic": "駅の朝",
+  "title": "A Morning at the Station",
+  "created": "2026-10-22",
+  "body": "Mika missed the early train on Monday morning. She stood on the platform and watched the doors close. The next train would come in twelve minutes. A cold wind moved along the tracks, so she pulled her coat closer. Near the bench, a baker sold warm bread from a small cart. The smell of butter made her hungry, but she had no coins in her pocket. She checked the clock above the stairs and took a slow breath. A student beside her was reading a thin book and smiling at one page. When the train arrived, people stepped back to let others out first. Mika found a seat by the window and opened her bag. Inside was a red apple and a note from her brother. The note said, \"Have a good day.\" She ate the apple and felt a little better.",
+  "wordCount": 142,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Mika missed the early train on Monday morning."
+    },
+    {
+      "id": "s2",
+      "text": "She stood on the platform and watched the doors close."
+    },
+    {
+      "id": "s3",
+      "text": "The next train would come in twelve minutes."
+    },
+    {
+      "id": "s4",
+      "text": "A cold wind moved along the tracks, so she pulled her coat closer."
+    },
+    {
+      "id": "s5",
+      "text": "Near the bench, a baker sold warm bread from a small cart."
+    },
+    {
+      "id": "s6",
+      "text": "The smell of butter made her hungry, but she had no coins in her pocket."
+    },
+    {
+      "id": "s7",
+      "text": "She checked the clock above the stairs and took a slow breath."
+    },
+    {
+      "id": "s8",
+      "text": "A student beside her was reading a thin book and smiling at one page."
+    },
+    {
+      "id": "s9",
+      "text": "When the train arrived, people stepped back to let others out first."
+    },
+    {
+      "id": "s10",
+      "text": "Mika found a seat by the window and opened her bag."
+    },
+    {
+      "id": "s11",
+      "text": "Inside was a red apple and a note from her brother."
+    },
+    {
+      "id": "s12",
+      "text": "The note said, \"Have a good day.\""
+    },
+    {
+      "id": "s13",
+      "text": "She ate the apple and felt a little better."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "choice",
+      "prompt": "ミカが月曜日の朝に逃したものは何ですか。",
+      "choices": ["早い電車", "バス", "飛行機", "タクシー"],
+      "answer": "早い電車",
+      "evidenceSentenceId": "s1"
+    },
+    {
+      "id": "q2",
+      "kind": "choice",
+      "prompt": "ベンチの近くで売っていたものは何ですか。",
+      "choices": ["温かいパン", "コーヒー", "新聞", "花"],
+      "answer": "温かいパン",
+      "evidenceSentenceId": "s5"
+    },
+    {
+      "id": "q3",
+      "kind": "choice",
+      "prompt": "ミカのカバンの中にあった果物は何ですか。",
+      "choices": ["赤いりんご", "黄色いバナナ", "オレンジ", "ぶどう"],
+      "answer": "赤いりんご",
+      "evidenceSentenceId": "s11"
+    },
+    {
+      "id": "q4",
+      "kind": "free",
+      "prompt": "ミカはりんごを食べたあと、どんな気持ちになりましたか。",
+      "choices": [],
+      "answer": null,
+      "evidenceSentenceId": "s13"
+    }
+  ],
+  "words": [
+    {
+      "id": "w1",
+      "headword": "miss",
+      "pos": "verb",
+      "gender": "",
+      "ja": "逃す",
+      "example": "Mika missed the early train on Monday morning.",
+      "forms": ["missed"]
+    },
+    {
+      "id": "w2",
+      "headword": "train",
+      "pos": "noun",
+      "gender": "",
+      "ja": "電車",
+      "example": "The next train would come in twelve minutes.",
+      "forms": ["train"]
+    },
+    {
+      "id": "w3",
+      "headword": "platform",
+      "pos": "noun",
+      "gender": "",
+      "ja": "プラットホーム",
+      "example": "She stood on the platform and watched the doors close.",
+      "forms": ["platform"]
+    },
+    {
+      "id": "w4",
+      "headword": "wind",
+      "pos": "noun",
+      "gender": "",
+      "ja": "風",
+      "example": "A cold wind moved along the tracks, so she pulled her coat closer.",
+      "forms": ["wind"]
+    },
+    {
+      "id": "w5",
+      "headword": "coat",
+      "pos": "noun",
+      "gender": "",
+      "ja": "コート",
+      "example": "A cold wind moved along the tracks, so she pulled her coat closer.",
+      "forms": ["coat"]
+    },
+    {
+      "id": "w6",
+      "headword": "baker",
+      "pos": "noun",
+      "gender": "",
+      "ja": "パン職人",
+      "example": "Near the bench, a baker sold warm bread from a small cart.",
+      "forms": ["baker"]
+    },
+    {
+      "id": "w7",
+      "headword": "bread",
+      "pos": "noun",
+      "gender": "",
+      "ja": "パン",
+      "example": "Near the bench, a baker sold warm bread from a small cart.",
+      "forms": ["bread"]
+    },
+    {
+      "id": "w8",
+      "headword": "hungry",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "おなかが空いた",
+      "example": "The smell of butter made her hungry, but she had no coins in her pocket.",
+      "forms": ["hungry"]
+    },
+    {
+      "id": "w9",
+      "headword": "clock",
+      "pos": "noun",
+      "gender": "",
+      "ja": "時計",
+      "example": "She checked the clock above the stairs and took a slow breath.",
+      "forms": ["clock"]
+    },
+    {
+      "id": "w10",
+      "headword": "apple",
+      "pos": "noun",
+      "gender": "",
+      "ja": "りんご",
+      "example": "Inside was a red apple and a note from her brother.",
+      "forms": ["apple"]
+    }
+  ]
+}
