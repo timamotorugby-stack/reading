@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "en-20261023-sz78",
+  "language": "en",
+  "level": 2,
+  "topic": "スポーツ",
+  "title": "Leo's Sixth Try",
+  "created": "2026-10-23",
+  "body": "On Saturday morning, Emma and her brother Leo went to the sports center near their home. They wanted to play basketball, but Leo was worried because he could not throw the ball very well. Emma put a small bag on the floor to show him where to stand. First, they practiced short passes, and then Leo tried to throw the ball into the basket. He missed five times, but Emma smiled and told him to try again. On his sixth try, the ball went through the basket. Leo jumped and shouted with joy. They played for another twenty minutes before taking a break to drink some water.",
+  "wordCount": 107,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "On Saturday morning, Emma and her brother Leo went to the sports center near their home."
+    },
+    {
+      "id": "s2",
+      "text": "They wanted to play basketball, but Leo was worried because he could not throw the ball very well."
+    },
+    {
+      "id": "s3",
+      "text": "Emma put a small bag on the floor to show him where to stand."
+    },
+    {
+      "id": "s4",
+      "text": "First, they practiced short passes, and then Leo tried to throw the ball into the basket."
+    },
+    {
+      "id": "s5",
+      "text": "He missed five times, but Emma smiled and told him to try again."
+    },
+    {
+      "id": "s6",
+      "text": "On his sixth try, the ball went through the basket."
+    },
+    {
+      "id": "s7",
+      "text": "Leo jumped and shouted with joy."
+    },
+    {
+      "id": "s8",
+      "text": "They played for another twenty minutes before taking a break to drink some water."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "choice",
+      "prompt": "土曜日の朝、エマとレオはどこへ行きましたか。",
+      "choices": ["学校の体育館", "家の近くのスポーツセンター", "駅の近くの公園", "友達の家"],
+      "answer": "家の近くのスポーツセンター",
+      "evidenceSentenceId": "s1"
+    },
+    {
+      "id": "q2",
+      "kind": "choice",
+      "prompt": "レオが心配していたのはなぜですか。",
+      "choices": ["バスケットボールを持っていなかったから", "スポーツセンターが混んでいたから", "ボールをあまり上手に投げられなかったから", "バスケットボールが好きではなかったから"],
+      "answer": "ボールをあまり上手に投げられなかったから",
+      "evidenceSentenceId": "s2"
+    },
+    {
+      "id": "q3",
+      "kind": "choice",
+      "prompt": "レオが投げたボールがバスケットに入ったのは、何回目でしたか。",
+      "choices": ["2回目", "4回目", "5回目", "6回目"],
+      "answer": "6回目",
+      "evidenceSentenceId": "s6"
+    }
+  ],
+  "words": [
+    {
+      "id": "w1",
+      "headword": "morning",
+      "pos": "noun",
+      "gender": "",
+      "ja": "朝",
+      "example": "On Saturday morning, Emma and her brother Leo went to the sports center near their home.",
+      "forms": ["morning"]
+    },
+    {
+      "id": "w2",
+      "headword": "brother",
+      "pos": "noun",
+      "gender": "",
+      "ja": "兄、弟",
+      "example": "On Saturday morning, Emma and her brother Leo went to the sports center near their home.",
+      "forms": ["brother"]
+    },
+    {
+      "id": "w3",
+      "headword": "basketball",
+      "pos": "noun",
+      "gender": "",
+      "ja": "バスケットボール",
+      "example": "They wanted to play basketball, but Leo was worried because he could not throw the ball very well.",
+      "forms": ["basketball"]
+    },
+    {
+      "id": "w4",
+      "headword": "worried",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "心配している",
+      "example": "They wanted to play basketball, but Leo was worried because he could not throw the ball very well.",
+      "forms": ["worried"]
+    },
+    {
+      "id": "w5",
+      "headword": "throw",
+      "pos": "verb",
+      "gender": "",
+      "ja": "投げる",
+      "example": "They wanted to play basketball, but Leo was worried because he could not throw the ball very well.",
+      "forms": ["throw"]
+    },
+    {
+      "id": "w6",
+      "headword": "floor",
+      "pos": "noun",
+      "gender": "",
+      "ja": "床",
+      "example": "Emma put a small bag on the floor to show him where to stand.",
+      "forms": ["floor"]
+    },
+    {
+      "id": "w7",
+      "headword": "basket",
+      "pos": "noun",
+      "gender": "",
+      "ja": "バスケット、ゴールのリングとネット",
+      "example": "First, they practiced short passes, and then Leo tried to throw the ball into the basket.",
+      "forms": ["basket"]
+    },
+    {
+      "id": "w8",
+      "headword": "smile",
+      "pos": "verb",
+      "gender": "",
+      "ja": "ほほえむ",
+      "example": "He missed five times, but Emma smiled and told him to try again.",
+      "forms": ["smiled"]
+    },
+    {
+      "id": "w9",
+      "headword": "joy",
+      "pos": "noun",
+      "gender": "",
+      "ja": "喜び",
+      "example": "Leo jumped and shouted with joy.",
+      "forms": ["joy"]
+    },
+    {
+      "id": "w10",
+      "headword": "water",
+      "pos": "noun",
+      "gender": "",
+      "ja": "水",
+      "example": "They played for another twenty minutes before taking a break to drink some water.",
+      "forms": ["water"]
+    }
+  ]
+}
