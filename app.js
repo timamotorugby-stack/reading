@@ -28,6 +28,7 @@ const ui = {
 
 let state = loadState();
 let catalogCache = null;
+let catalogRefresh = true;
 let renderSeq = 0;
 let speakToken = 0;
 
@@ -460,14 +461,18 @@ function evidenceSentences(article, sentenceId) {
 }
 
 async function loadCatalog() {
-  if (catalogCache) return { articles: catalogCache, error: false };
+  const refresh = catalogRefresh || !catalogCache;
+  catalogRefresh = false;
+  if (!refresh) return { articles: catalogCache, error: false };
+  const previous = catalogCache;
   try {
-    const response = await fetch("content/index.json");
+    const response = await fetch(`content/index.json?t=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) throw new Error(String(response.status));
     const data = await response.json();
     catalogCache = Array.isArray(data.articles) ? data.articles : [];
     return { articles: catalogCache, error: false };
   } catch {
+    if (previous) return { articles: previous, error: false };
     return { articles: [], error: true };
   }
 }
@@ -1414,8 +1419,10 @@ async function render() {
   const seq = ++renderSeq;
   const route = parseRoute();
   const key = `${route.name}/${route.a}/${route.b}`;
-  if (key !== ui.routeKey) {
+  const entered = key !== ui.routeKey;
+  if (entered) {
     ui.routeKey = key;
+    if (route.name === "library") catalogRefresh = true;
     ui.activeKey = null;
     ui.activeWordId = null;
     ui.questionPhase = "ask";
@@ -1471,6 +1478,13 @@ window.addEventListener("hashchange", () => render());
 window.addEventListener("pageshow", (event) => {
   if (!event.persisted) return;
   state = loadState();
+  catalogRefresh = true;
+  render();
+});
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState !== "visible") return;
+  if (parseRoute().name !== "library") return;
+  catalogRefresh = true;
   render();
 });
 render();
