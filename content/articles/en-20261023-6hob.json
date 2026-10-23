@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "en-20261023-6hob",
+  "language": "en",
+  "level": 3,
+  "topic": "バスケットボール",
+  "title": "The Last Pass",
+  "created": "2026-10-23",
+  "body": "With twelve seconds left, Maya crouched beside the scorer's table in the dim gym at Westbrook School. Her team trailed by one point, and their captain was limping toward the bench. Coach Ellis beckoned Maya onto the court and whispered, \"Watch the defender's feet, not her hands.\" When the whistle shrilled, Maya received the ball near the sideline, where a loose floorboard creaked beneath her shoe. The defender lunged, but Maya pivoted away and sent a deft pass to Nora under the basket. Nora's shot struck the rim and hung there for an agonizing moment before dropping through the net. As the final buzzer sounded, Maya stood motionless until Nora seized her wrist and pulled her into the jubilant huddle. On the bench, their captain raised both crutches in triumph.",
+  "wordCount": 130,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "With twelve seconds left, Maya crouched beside the scorer's table in the dim gym at Westbrook School."
+    },
+    {
+      "id": "s2",
+      "text": "Her team trailed by one point, and their captain was limping toward the bench."
+    },
+    {
+      "id": "s3",
+      "text": "Coach Ellis beckoned Maya onto the court and whispered, \"Watch the defender's feet, not her hands.\""
+    },
+    {
+      "id": "s4",
+      "text": "When the whistle shrilled, Maya received the ball near the sideline, where a loose floorboard creaked beneath her shoe."
+    },
+    {
+      "id": "s5",
+      "text": "The defender lunged, but Maya pivoted away and sent a deft pass to Nora under the basket."
+    },
+    {
+      "id": "s6",
+      "text": "Nora's shot struck the rim and hung there for an agonizing moment before dropping through the net."
+    },
+    {
+      "id": "s7",
+      "text": "As the final buzzer sounded, Maya stood motionless until Nora seized her wrist and pulled her into the jubilant huddle."
+    },
+    {
+      "id": "s8",
+      "text": "On the bench, their captain raised both crutches in triumph."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "choice",
+      "prompt": "キャプテンがベンチへ向かっていたとき、マヤのチームの得点状況はどうでしたか。",
+      "choices": ["1点リードしていた。", "1点負けていた。", "同点だった。", "2点負けていた。"],
+      "answer": "1点負けていた。",
+      "evidenceSentenceId": "s2"
+    },
+    {
+      "id": "q2",
+      "kind": "choice",
+      "prompt": "エリスコーチは、相手の守備選手のどこを見るようマヤに指示しましたか。",
+      "choices": ["手", "目", "肩", "足"],
+      "answer": "足",
+      "evidenceSentenceId": "s3"
+    },
+    {
+      "id": "q3",
+      "kind": "choice",
+      "prompt": "終了のブザーが鳴ったとき、ノラはマヤに何をしましたか。",
+      "choices": ["肩をたたいてベンチへ連れていった。", "ボールを渡してコートへ押し戻した。", "手首をつかんで喜ぶ輪の中へ引き入れた。", "両手を握ってその場に座らせた。"],
+      "answer": "手首をつかんで喜ぶ輪の中へ引き入れた。",
+      "evidenceSentenceId": "s7"
+    }
+  ],
+  "words": [
+    {
+      "id": "w1",
+      "headword": "crouch",
+      "pos": "verb",
+      "gender": "",
+      "ja": "身をかがめる、しゃがむ",
+      "example": "With twelve seconds left, Maya crouched beside the scorer's table in the dim gym at Westbrook School.",
+      "forms": ["crouched"]
+    },
+    {
+      "id": "w2",
+      "headword": "beckon",
+      "pos": "verb",
+      "gender": "",
+      "ja": "手招きする",
+      "example": "Coach Ellis beckoned Maya onto the court and whispered, \"Watch the defender's feet, not her hands.\"",
+      "forms": ["beckoned"]
+    },
+    {
+      "id": "w3",
+      "headword": "shrill",
+      "pos": "verb",
+      "gender": "",
+      "ja": "甲高く鳴る",
+      "example": "When the whistle shrilled, Maya received the ball near the sideline, where a loose floorboard creaked beneath her shoe.",
+      "forms": ["shrilled"]
+    },
+    {
+      "id": "w4",
+      "headword": "sideline",
+      "pos": "noun",
+      "gender": "",
+      "ja": "サイドライン、コートの側線",
+      "example": "When the whistle shrilled, Maya received the ball near the sideline, where a loose floorboard creaked beneath her shoe.",
+      "forms": ["sideline"]
+    },
+    {
+      "id": "w5",
+      "headword": "lunge",
+      "pos": "verb",
+      "gender": "",
+      "ja": "急に飛びかかる、突進する",
+      "example": "The defender lunged, but Maya pivoted away and sent a deft pass to Nora under the basket.",
+      "forms": ["lunged"]
+    },
+    {
+      "id": "w6",
+      "headword": "pivot",
+      "pos": "verb",
+      "gender": "",
+      "ja": "片足を軸にして向きを変える",
+      "example": "The defender lunged, but Maya pivoted away and sent a deft pass to Nora under the basket.",
+      "forms": ["pivoted"]
+    },
+    {
+      "id": "w7",
+      "headword": "deft",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "巧みな、手際のよい",
+      "example": "The defender lunged, but Maya pivoted away and sent a deft pass to Nora under the basket.",
+      "forms": ["deft"]
+    },
+    {
+      "id": "w8",
+      "headword": "agonizing",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "気が気でないほどつらい",
+      "example": "Nora's shot struck the rim and hung there for an agonizing moment before dropping through the net.",
+      "forms": ["agonizing"]
+    },
+    {
+      "id": "w9",
+      "headword": "jubilant",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "大喜びしている、歓喜に満ちた",
+      "example": "As the final buzzer sounded, Maya stood motionless until Nora seized her wrist and pulled her into the jubilant huddle.",
+      "forms": ["jubilant"]
+    },
+    {
+      "id": "w10",
+      "headword": "triumph",
+      "pos": "noun",
+      "gender": "",
+      "ja": "勝利の喜び、歓喜",
+      "example": "On the bench, their captain raised both crutches in triumph.",
+      "forms": ["triumph"]
+    }
+  ]
+}
