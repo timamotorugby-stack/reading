@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "en-20261023-2b0u",
+  "language": "en",
+  "level": 3,
+  "topic": "ラグビー",
+  "title": "Beyond the Mud",
+  "created": "2026-10-23",
+  "body": "Rain swept across Millbank's rugby pitch as Mara crouched near the touchline, her boots sinking into the sodden turf. Her team trailed by two points, and only a minute remained. When the scrum lurched sideways, Ben dragged the slippery ball clear of the tangle of legs. His feint drew both defenders towards the posts, leaving a narrow gap beside Mara. He passed backwards to her, and she clutched the ball against her ribs before darting through. A hoarse shout rose from the bench as the opposing captain scrambled after her. The referee waited until she grounded the ball beyond the try line, then raised his arm to award the winning try. Mara stayed on her knees until the final whistle, then grinned at Ben through a mask of mud.",
+  "wordCount": 129,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Rain swept across Millbank's rugby pitch as Mara crouched near the touchline, her boots sinking into the sodden turf."
+    },
+    {
+      "id": "s2",
+      "text": "Her team trailed by two points, and only a minute remained."
+    },
+    {
+      "id": "s3",
+      "text": "When the scrum lurched sideways, Ben dragged the slippery ball clear of the tangle of legs."
+    },
+    {
+      "id": "s4",
+      "text": "His feint drew both defenders towards the posts, leaving a narrow gap beside Mara."
+    },
+    {
+      "id": "s5",
+      "text": "He passed backwards to her, and she clutched the ball against her ribs before darting through."
+    },
+    {
+      "id": "s6",
+      "text": "A hoarse shout rose from the bench as the opposing captain scrambled after her."
+    },
+    {
+      "id": "s7",
+      "text": "The referee waited until she grounded the ball beyond the try line, then raised his arm to award the winning try."
+    },
+    {
+      "id": "s8",
+      "text": "Mara stayed on her knees until the final whistle, then grinned at Ben through a mask of mud."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "choice",
+      "prompt": "試合の残り時間が1分になったとき、マーラのチームはどのような状況でしたか。",
+      "choices": ["2点差で負けていた。", "2点差で勝っていた。", "同点に追いついていた。", "1点差で負けていた。"],
+      "answer": "2点差で負けていた。",
+      "evidenceSentenceId": "s2"
+    },
+    {
+      "id": "q2",
+      "kind": "choice",
+      "prompt": "ベンのフェイントは、守備側の選手にどのような影響を与えましたか。",
+      "choices": ["2人ともマーラのすぐ横に移動した。", "1人がベンからボールを奪った。", "2人ともポストの方へ引き寄せられた。", "1人がタッチラインの外へ出た。"],
+      "answer": "2人ともポストの方へ引き寄せられた。",
+      "evidenceSentenceId": "s4"
+    },
+    {
+      "id": "q3",
+      "kind": "choice",
+      "prompt": "審判が決勝のトライを認める前に、マーラは何をしましたか。",
+      "choices": ["ボールをポストの間に蹴り込んだ。", "トライラインを越えたところでボールを地面につけた。", "相手の主将にボールを渡した。", "ベンに向かって腕を上げた。"],
+      "answer": "トライラインを越えたところでボールを地面につけた。",
+      "evidenceSentenceId": "s7"
+    }
+  ],
+  "words": [
+    {
+      "id": "w1",
+      "headword": "touchline",
+      "pos": "noun",
+      "gender": "",
+      "ja": "タッチライン、競技場の両側の境界線",
+      "example": "Rain swept across Millbank's rugby pitch as Mara crouched near the touchline, her boots sinking into the sodden turf.",
+      "forms": ["touchline"]
+    },
+    {
+      "id": "w2",
+      "headword": "sodden",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "水を含んでびしょぬれの",
+      "example": "Rain swept across Millbank's rugby pitch as Mara crouched near the touchline, her boots sinking into the sodden turf.",
+      "forms": ["sodden"]
+    },
+    {
+      "id": "w3",
+      "headword": "scrum",
+      "pos": "noun",
+      "gender": "",
+      "ja": "スクラム",
+      "example": "When the scrum lurched sideways, Ben dragged the slippery ball clear of the tangle of legs.",
+      "forms": ["scrum"]
+    },
+    {
+      "id": "w4",
+      "headword": "lurch",
+      "pos": "verb",
+      "gender": "",
+      "ja": "急によろめく、不安定に動く",
+      "example": "When the scrum lurched sideways, Ben dragged the slippery ball clear of the tangle of legs.",
+      "forms": ["lurched"]
+    },
+    {
+      "id": "w5",
+      "headword": "tangle",
+      "pos": "noun",
+      "gender": "",
+      "ja": "絡まり、もつれ合ったもの",
+      "example": "When the scrum lurched sideways, Ben dragged the slippery ball clear of the tangle of legs.",
+      "forms": ["tangle"]
+    },
+    {
+      "id": "w6",
+      "headword": "feint",
+      "pos": "noun",
+      "gender": "",
+      "ja": "フェイント、相手を惑わす見せかけの動き",
+      "example": "His feint drew both defenders towards the posts, leaving a narrow gap beside Mara.",
+      "forms": ["feint"]
+    },
+    {
+      "id": "w7",
+      "headword": "clutch",
+      "pos": "verb",
+      "gender": "",
+      "ja": "しっかりと握る、抱え込む",
+      "example": "He passed backwards to her, and she clutched the ball against her ribs before darting through.",
+      "forms": ["clutched"]
+    },
+    {
+      "id": "w8",
+      "headword": "dart",
+      "pos": "verb",
+      "gender": "",
+      "ja": "すばやく飛び出す、さっと動く",
+      "example": "He passed backwards to her, and she clutched the ball against her ribs before darting through.",
+      "forms": ["darting"]
+    },
+    {
+      "id": "w9",
+      "headword": "hoarse",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "声がかすれた、しゃがれた",
+      "example": "A hoarse shout rose from the bench as the opposing captain scrambled after her.",
+      "forms": ["hoarse"]
+    },
+    {
+      "id": "w10",
+      "headword": "scramble",
+      "pos": "verb",
+      "gender": "",
+      "ja": "慌てて進む、必死に動く",
+      "example": "A hoarse shout rose from the bench as the opposing captain scrambled after her.",
+      "forms": ["scrambled"]
+    }
+  ]
+}
