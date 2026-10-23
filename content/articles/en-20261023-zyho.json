@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "en-20261023-zyho",
+  "language": "en",
+  "level": 3,
+  "topic": "バスケットボール",
+  "title": "The Last Pass",
+  "created": "2026-10-23",
+  "body": "With twelve seconds left, Mara stood beneath the flickering lights of the Riverside gym, her jersey clinging to her back. Across the court, a puddle from the leaking roof glimmered beside the visitors' bench. The referee had marked it with a battered cone, but nobody could spare a towel. Mara's team trailed by one point when she intercepted a reckless pass. She sprinted toward the basket, then faltered as a defender blocked her path. Instead of forcing a shot, she slipped the ball to Lena, who waited unnoticed in the corner. Lena hesitated, hearing the crowd's clamor, until Mara shouted her name. The ball struck the rim, hovered for a heartbeat, and dropped through as the buzzer sounded. Under the shabby lights, Lena's bewilderment dissolved into a grin.",
+  "wordCount": 128,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "With twelve seconds left, Mara stood beneath the flickering lights of the Riverside gym, her jersey clinging to her back."
+    },
+    {
+      "id": "s2",
+      "text": "Across the court, a puddle from the leaking roof glimmered beside the visitors' bench."
+    },
+    {
+      "id": "s3",
+      "text": "The referee had marked it with a battered cone, but nobody could spare a towel."
+    },
+    {
+      "id": "s4",
+      "text": "Mara's team trailed by one point when she intercepted a reckless pass."
+    },
+    {
+      "id": "s5",
+      "text": "She sprinted toward the basket, then faltered as a defender blocked her path."
+    },
+    {
+      "id": "s6",
+      "text": "Instead of forcing a shot, she slipped the ball to Lena, who waited unnoticed in the corner."
+    },
+    {
+      "id": "s7",
+      "text": "Lena hesitated, hearing the crowd's clamor, until Mara shouted her name."
+    },
+    {
+      "id": "s8",
+      "text": "The ball struck the rim, hovered for a heartbeat, and dropped through as the buzzer sounded."
+    },
+    {
+      "id": "s9",
+      "text": "Under the shabby lights, Lena's bewilderment dissolved into a grin."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "choice",
+      "prompt": "マラがパスを奪ったとき、彼女のチームの得点状況はどうでしたか。",
+      "choices": ["1点リードしていた。", "1点負けていた。", "同点だった。", "2点負けていた。"],
+      "answer": "1点負けていた。",
+      "evidenceSentenceId": "s4"
+    },
+    {
+      "id": "q2",
+      "kind": "choice",
+      "prompt": "マラは無理にシュートを打つ代わりに、どうしましたか。",
+      "choices": ["コーナーで目立たずに待つレナにパスした。", "ゴールの真下にいるレナにパスした。", "相手のベンチに向かってボールを投げた。", "ボールを持ったままコーナーへ移動した。"],
+      "answer": "コーナーで目立たずに待つレナにパスした。",
+      "evidenceSentenceId": "s6"
+    },
+    {
+      "id": "q3",
+      "kind": "choice",
+      "prompt": "最後のシュートのボールは、どうなりましたか。",
+      "choices": ["リングに触れず、そのままゴールに入った。", "リングに当たり、コートの外へ落ちた。", "リングに当たり、一瞬浮いてからブザーとともにゴールに入った。", "リングの上で止まり、ブザーのあとも動かなかった。"],
+      "answer": "リングに当たり、一瞬浮いてからブザーとともにゴールに入った。",
+      "evidenceSentenceId": "s8"
+    }
+  ],
+  "words": [
+    {
+      "id": "w1",
+      "headword": "flicker",
+      "pos": "verb",
+      "gender": "",
+      "ja": "ちらつく、明滅する",
+      "example": "With twelve seconds left, Mara stood beneath the flickering lights of the Riverside gym, her jersey clinging to her back.",
+      "forms": ["flickering"]
+    },
+    {
+      "id": "w2",
+      "headword": "cling",
+      "pos": "verb",
+      "gender": "",
+      "ja": "ぴったりと張り付く",
+      "example": "With twelve seconds left, Mara stood beneath the flickering lights of the Riverside gym, her jersey clinging to her back.",
+      "forms": ["clinging"]
+    },
+    {
+      "id": "w3",
+      "headword": "puddle",
+      "pos": "noun",
+      "gender": "",
+      "ja": "水たまり",
+      "example": "Across the court, a puddle from the leaking roof glimmered beside the visitors' bench.",
+      "forms": ["puddle"]
+    },
+    {
+      "id": "w4",
+      "headword": "glimmer",
+      "pos": "verb",
+      "gender": "",
+      "ja": "かすかに光る",
+      "example": "Across the court, a puddle from the leaking roof glimmered beside the visitors' bench.",
+      "forms": ["glimmered"]
+    },
+    {
+      "id": "w5",
+      "headword": "battered",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "使い古されて傷んだ",
+      "example": "The referee had marked it with a battered cone, but nobody could spare a towel.",
+      "forms": ["battered"]
+    },
+    {
+      "id": "w6",
+      "headword": "intercept",
+      "pos": "verb",
+      "gender": "",
+      "ja": "相手のパスを途中で奪う",
+      "example": "Mara's team trailed by one point when she intercepted a reckless pass.",
+      "forms": ["intercepted"]
+    },
+    {
+      "id": "w7",
+      "headword": "reckless",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "無謀な、軽率な",
+      "example": "Mara's team trailed by one point when she intercepted a reckless pass.",
+      "forms": ["reckless"]
+    },
+    {
+      "id": "w8",
+      "headword": "falter",
+      "pos": "verb",
+      "gender": "",
+      "ja": "ためらって動きが鈍る",
+      "example": "She sprinted toward the basket, then faltered as a defender blocked her path.",
+      "forms": ["faltered"]
+    },
+    {
+      "id": "w9",
+      "headword": "clamor",
+      "pos": "noun",
+      "gender": "",
+      "ja": "騒々しい声、どよめき",
+      "example": "Lena hesitated, hearing the crowd's clamor, until Mara shouted her name.",
+      "forms": ["clamor"]
+    },
+    {
+      "id": "w10",
+      "headword": "bewilderment",
+      "pos": "noun",
+      "gender": "",
+      "ja": "戸惑い、当惑",
+      "example": "Under the shabby lights, Lena's bewilderment dissolved into a grin.",
+      "forms": ["bewilderment"]
+    }
+  ]
+}
