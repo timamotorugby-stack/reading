@@ -40,6 +40,14 @@
       "topic": "ラグビー",
       "title": "Emma's Rugby Practice",
       "created": "2026-10-23"
+    },
+    {
+      "id": "en-20261023-btmt",
+      "language": "en",
+      "level": 3,
+      "topic": "ラグビー",
+      "title": "Beyond the Try",
+      "created": "2026-10-23"
     }
   ]
 }

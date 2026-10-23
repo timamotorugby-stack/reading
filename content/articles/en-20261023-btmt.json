@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "en-20261023-btmt",
+  "language": "en",
+  "level": 3,
+  "topic": "ラグビー",
+  "title": "Beyond the Try",
+  "created": "2026-10-23",
+  "body": "At dusk, rain swept across Harrow's rugby ground as Maya crouched beside the touchline, clutching a spare ball. Her brother Leo stood in the mud, his torn jersey flapping while the referee inspected an injured player. With two minutes remaining, their team needed one try to avoid defeat. When play resumed, Leo intercepted a reckless pass and sprinted toward the corner. A defender lunged at his ankles, but he stumbled forward and grounded the ball just inside the flag. The referee hesitated, then raised his arm to award the try. Maya's relief vanished when she noticed Leo limping away without celebrating. Ignoring the jubilant crowd, she dropped the spare ball, seized the medical bag, and hurried toward him.",
+  "wordCount": 118,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "At dusk, rain swept across Harrow's rugby ground as Maya crouched beside the touchline, clutching a spare ball."
+    },
+    {
+      "id": "s2",
+      "text": "Her brother Leo stood in the mud, his torn jersey flapping while the referee inspected an injured player."
+    },
+    {
+      "id": "s3",
+      "text": "With two minutes remaining, their team needed one try to avoid defeat."
+    },
+    {
+      "id": "s4",
+      "text": "When play resumed, Leo intercepted a reckless pass and sprinted toward the corner."
+    },
+    {
+      "id": "s5",
+      "text": "A defender lunged at his ankles, but he stumbled forward and grounded the ball just inside the flag."
+    },
+    {
+      "id": "s6",
+      "text": "The referee hesitated, then raised his arm to award the try."
+    },
+    {
+      "id": "s7",
+      "text": "Maya's relief vanished when she noticed Leo limping away without celebrating."
+    },
+    {
+      "id": "s8",
+      "text": "Ignoring the jubilant crowd, she dropped the spare ball, seized the medical bag, and hurried toward him."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "choice",
+      "prompt": "残り2分の時点で、レオのチームが敗北を避けるために必要だったものは何ですか。",
+      "choices": ["1回のトライ", "相手選手の退場", "試合時間の延長", "選手の交代"],
+      "answer": "1回のトライ",
+      "evidenceSentenceId": "s3"
+    },
+    {
+      "id": "q2",
+      "kind": "choice",
+      "prompt": "マヤの安堵が消えたのは、レオのどのような様子に気づいたからですか。",
+      "choices": ["喜びながら観客に手を振っていた様子", "審判に向かって抗議していた様子", "喜ぶことなく足を引きずって離れていく様子", "泥の中に座って靴を直していた様子"],
+      "answer": "喜ぶことなく足を引きずって離れていく様子",
+      "evidenceSentenceId": "s7"
+    },
+    {
+      "id": "q3",
+      "kind": "choice",
+      "prompt": "歓喜する観客に構わず、マヤは何をしましたか。",
+      "choices": ["予備のボールを持って選手たちに加わった", "予備のボールを落とし、救護バッグをつかんでレオの方へ急いだ", "救護バッグを置いて審判を呼びに走った", "観客に静かにするよう頼んだ"],
+      "answer": "予備のボールを落とし、救護バッグをつかんでレオの方へ急いだ",
+      "evidenceSentenceId": "s8"
+    }
+  ],
+  "words": [
+    {
+      "id": "w1",
+      "headword": "dusk",
+      "pos": "noun",
+      "gender": "",
+      "ja": "夕暮れ",
+      "example": "At dusk, rain swept across Harrow's rugby ground as Maya crouched beside the touchline, clutching a spare ball.",
+      "forms": ["dusk"]
+    },
+    {
+      "id": "w2",
+      "headword": "crouch",
+      "pos": "verb",
+      "gender": "",
+      "ja": "しゃがむ、身を低くする",
+      "example": "At dusk, rain swept across Harrow's rugby ground as Maya crouched beside the touchline, clutching a spare ball.",
+      "forms": ["crouched"]
+    },
+    {
+      "id": "w3",
+      "headword": "clutch",
+      "pos": "verb",
+      "gender": "",
+      "ja": "しっかりと握る、抱え込む",
+      "example": "At dusk, rain swept across Harrow's rugby ground as Maya crouched beside the touchline, clutching a spare ball.",
+      "forms": ["clutching"]
+    },
+    {
+      "id": "w4",
+      "headword": "jersey",
+      "pos": "noun",
+      "gender": "",
+      "ja": "競技用のシャツ、ジャージー",
+      "example": "Her brother Leo stood in the mud, his torn jersey flapping while the referee inspected an injured player.",
+      "forms": ["jersey"]
+    },
+    {
+      "id": "w5",
+      "headword": "intercept",
+      "pos": "verb",
+      "gender": "",
+      "ja": "相手のパスを途中で奪う",
+      "example": "When play resumed, Leo intercepted a reckless pass and sprinted toward the corner.",
+      "forms": ["intercepted"]
+    },
+    {
+      "id": "w6",
+      "headword": "reckless",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "無謀な、不用意な",
+      "example": "When play resumed, Leo intercepted a reckless pass and sprinted toward the corner.",
+      "forms": ["reckless"]
+    },
+    {
+      "id": "w7",
+      "headword": "lunge",
+      "pos": "verb",
+      "gender": "",
+      "ja": "急に飛びかかる、突進する",
+      "example": "A defender lunged at his ankles, but he stumbled forward and grounded the ball just inside the flag.",
+      "forms": ["lunged"]
+    },
+    {
+      "id": "w8",
+      "headword": "hesitate",
+      "pos": "verb",
+      "gender": "",
+      "ja": "ためらう",
+      "example": "The referee hesitated, then raised his arm to award the try.",
+      "forms": ["hesitated"]
+    },
+    {
+      "id": "w9",
+      "headword": "limp",
+      "pos": "verb",
+      "gender": "",
+      "ja": "足を引きずって歩く",
+      "example": "Maya's relief vanished when she noticed Leo limping away without celebrating.",
+      "forms": ["limping"]
+    },
+    {
+      "id": "w10",
+      "headword": "jubilant",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "大喜びしている、歓喜に満ちた",
+      "example": "Ignoring the jubilant crowd, she dropped the spare ball, seized the medical bag, and hurried toward him.",
+      "forms": ["jubilant"]
+    }
+  ]
+}
