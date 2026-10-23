@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-20261023-gobq",
+  "language": "fr",
+  "level": 2,
+  "topic": "朝のパン屋",
+  "title": "Un matin à la boulangerie",
+  "created": "2026-10-23",
+  "body": "Il est huit heures et Camille entre dans la petite boulangerie près de chez elle. Dans la boutique, une bonne odeur de pain chaud lui donne faim. Monsieur Martin, le boulanger, sort une plaque de croissants du four. Camille demande deux croissants et une baguette pour le petit déjeuner avec sa sœur. Pendant que le boulanger prépare son sac, elle regarde les gâteaux derrière la vitre. Elle choisit aussi une tarte aux pommes, car sa sœur aime beaucoup ce dessert. Camille paie sept euros, puis elle remercie monsieur Martin avec un sourire. Elle quitte la boulangerie et rentre à pied, son sac encore chaud dans les mains.",
+  "wordCount": 107,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Il est huit heures et Camille entre dans la petite boulangerie près de chez elle."
+    },
+    {
+      "id": "s2",
+      "text": "Dans la boutique, une bonne odeur de pain chaud lui donne faim."
+    },
+    {
+      "id": "s3",
+      "text": "Monsieur Martin, le boulanger, sort une plaque de croissants du four."
+    },
+    {
+      "id": "s4",
+      "text": "Camille demande deux croissants et une baguette pour le petit déjeuner avec sa sœur."
+    },
+    {
+      "id": "s5",
+      "text": "Pendant que le boulanger prépare son sac, elle regarde les gâteaux derrière la vitre."
+    },
+    {
+      "id": "s6",
+      "text": "Elle choisit aussi une tarte aux pommes, car sa sœur aime beaucoup ce dessert."
+    },
+    {
+      "id": "s7",
+      "text": "Camille paie sept euros, puis elle remercie monsieur Martin avec un sourire."
+    },
+    {
+      "id": "s8",
+      "text": "Elle quitte la boulangerie et rentre à pied, son sac encore chaud dans les mains."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "choice",
+      "prompt": "カミーユがパン屋に入るのは何時ですか。",
+      "choices": ["午前7時", "午前8時", "午前9時", "午前10時"],
+      "answer": "午前8時",
+      "evidenceSentenceId": "s1"
+    },
+    {
+      "id": "q2",
+      "kind": "choice",
+      "prompt": "カミーユが朝食用に最初に注文したものは何ですか。",
+      "choices": ["クロワッサン1個とバゲット2本", "クロワッサン2個とバゲット2本", "クロワッサン2個とバゲット1本", "クロワッサン3個とバゲット1本"],
+      "answer": "クロワッサン2個とバゲット1本",
+      "evidenceSentenceId": "s4"
+    },
+    {
+      "id": "q3",
+      "kind": "choice",
+      "prompt": "カミーユはいくら支払いますか。",
+      "choices": ["5ユーロ", "6ユーロ", "8ユーロ", "7ユーロ"],
+      "answer": "7ユーロ",
+      "evidenceSentenceId": "s7"
+    }
+  ],
+  "words": [
+    {
+      "id": "w1",
+      "headword": "boulangerie",
+      "pos": "noun",
+      "gender": "f",
+      "ja": "パン屋",
+      "example": "Il est huit heures et Camille entre dans la petite boulangerie près de chez elle.",
+      "forms": ["boulangerie"]
+    },
+    {
+      "id": "w2",
+      "headword": "pain",
+      "pos": "noun",
+      "gender": "m",
+      "ja": "パン",
+      "example": "Dans la boutique, une bonne odeur de pain chaud lui donne faim.",
+      "forms": ["pain"]
+    },
+    {
+      "id": "w3",
+      "headword": "chaud",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "温かい、熱い",
+      "example": "Dans la boutique, une bonne odeur de pain chaud lui donne faim.",
+      "forms": ["chaud"]
+    },
+    {
+      "id": "w4",
+      "headword": "boulanger",
+      "pos": "noun",
+      "gender": "m",
+      "ja": "パン職人",
+      "example": "Monsieur Martin, le boulanger, sort une plaque de croissants du four.",
+      "forms": ["boulanger"]
+    },
+    {
+      "id": "w5",
+      "headword": "croissant",
+      "pos": "noun",
+      "gender": "m",
+      "ja": "クロワッサン",
+      "example": "Camille demande deux croissants et une baguette pour le petit déjeuner avec sa sœur.",
+      "forms": ["croissants"]
+    },
+    {
+      "id": "w6",
+      "headword": "four",
+      "pos": "noun",
+      "gender": "m",
+      "ja": "オーブン",
+      "example": "Monsieur Martin, le boulanger, sort une plaque de croissants du four.",
+      "forms": ["four"]
+    },
+    {
+      "id": "w7",
+      "headword": "baguette",
+      "pos": "noun",
+      "gender": "f",
+      "ja": "バゲット、細長いフランスパン",
+      "example": "Camille demande deux croissants et une baguette pour le petit déjeuner avec sa sœur.",
+      "forms": ["baguette"]
+    },
+    {
+      "id": "w8",
+      "headword": "choisir",
+      "pos": "verb",
+      "gender": "",
+      "ja": "選ぶ",
+      "example": "Elle choisit aussi une tarte aux pommes, car sa sœur aime beaucoup ce dessert.",
+      "forms": ["choisit"]
+    },
+    {
+      "id": "w9",
+      "headword": "tarte",
+      "pos": "noun",
+      "gender": "f",
+      "ja": "タルト",
+      "example": "Elle choisit aussi une tarte aux pommes, car sa sœur aime beaucoup ce dessert.",
+      "forms": ["tarte"]
+    },
+    {
+      "id": "w10",
+      "headword": "sourire",
+      "pos": "noun",
+      "gender": "m",
+      "ja": "ほほえみ、笑顔",
+      "example": "Camille paie sept euros, puis elle remercie monsieur Martin avec un sourire.",
+      "forms": ["sourire"]
+    }
+  ]
+}
