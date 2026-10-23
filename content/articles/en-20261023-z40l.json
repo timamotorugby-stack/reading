@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "en-20261023-z40l",
+  "language": "en",
+  "level": 2,
+  "topic": "スポーツ",
+  "title": "A Soccer Game at the Park",
+  "created": "2026-10-23",
+  "body": "On Saturday afternoon, Mia and her brother Leo joined a soccer game at the park. Their friends were already on the field, so they quickly put on their shoes. Mia played near the goal because she was good at stopping the ball. At first, Leo ran too fast and missed several passes from his friends. Mia told him to slow down and watch the other players. A few minutes later, Leo passed the ball to a girl in a yellow shirt. She kicked it into the goal, and everyone on their team cheered. After the game, they sat under a tree and shared some cold water. Leo was tired, but he wanted to play again next Saturday.",
+  "wordCount": 117,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "On Saturday afternoon, Mia and her brother Leo joined a soccer game at the park."
+    },
+    {
+      "id": "s2",
+      "text": "Their friends were already on the field, so they quickly put on their shoes."
+    },
+    {
+      "id": "s3",
+      "text": "Mia played near the goal because she was good at stopping the ball."
+    },
+    {
+      "id": "s4",
+      "text": "At first, Leo ran too fast and missed several passes from his friends."
+    },
+    {
+      "id": "s5",
+      "text": "Mia told him to slow down and watch the other players."
+    },
+    {
+      "id": "s6",
+      "text": "A few minutes later, Leo passed the ball to a girl in a yellow shirt."
+    },
+    {
+      "id": "s7",
+      "text": "She kicked it into the goal, and everyone on their team cheered."
+    },
+    {
+      "id": "s8",
+      "text": "After the game, they sat under a tree and shared some cold water."
+    },
+    {
+      "id": "s9",
+      "text": "Leo was tired, but he wanted to play again next Saturday."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "choice",
+      "prompt": "ミアとレオはどこでサッカーの試合に参加しましたか。",
+      "choices": ["学校の体育館", "公園", "家の庭", "海辺"],
+      "answer": "公園",
+      "evidenceSentenceId": "s1"
+    },
+    {
+      "id": "q2",
+      "kind": "choice",
+      "prompt": "ミアがゴールの近くでプレーしたのはなぜですか。",
+      "choices": ["走るのが苦手だったから", "友達に呼ばれたから", "ボールを止めるのが得意だったから", "シュートの練習をしたかったから"],
+      "answer": "ボールを止めるのが得意だったから",
+      "evidenceSentenceId": "s3"
+    },
+    {
+      "id": "q3",
+      "kind": "choice",
+      "prompt": "試合のあと、みんなは何をしましたか。",
+      "choices": ["店で昼食を食べた", "すぐに次の試合を始めた", "木の下で靴を洗った", "木の下に座って冷たい水を分け合った"],
+      "answer": "木の下に座って冷たい水を分け合った",
+      "evidenceSentenceId": "s8"
+    }
+  ],
+  "words": [
+    {
+      "id": "w1",
+      "headword": "brother",
+      "pos": "noun",
+      "gender": "",
+      "ja": "兄弟",
+      "example": "On Saturday afternoon, Mia and her brother Leo joined a soccer game at the park.",
+      "forms": ["brother"]
+    },
+    {
+      "id": "w2",
+      "headword": "join",
+      "pos": "verb",
+      "gender": "",
+      "ja": "参加する",
+      "example": "On Saturday afternoon, Mia and her brother Leo joined a soccer game at the park.",
+      "forms": ["joined"]
+    },
+    {
+      "id": "w3",
+      "headword": "field",
+      "pos": "noun",
+      "gender": "",
+      "ja": "競技場、フィールド",
+      "example": "Their friends were already on the field, so they quickly put on their shoes.",
+      "forms": ["field"]
+    },
+    {
+      "id": "w4",
+      "headword": "quickly",
+      "pos": "adverb",
+      "gender": "",
+      "ja": "素早く",
+      "example": "Their friends were already on the field, so they quickly put on their shoes.",
+      "forms": ["quickly"]
+    },
+    {
+      "id": "w5",
+      "headword": "goal",
+      "pos": "noun",
+      "gender": "",
+      "ja": "ゴール",
+      "example": "Mia played near the goal because she was good at stopping the ball.",
+      "forms": ["goal"]
+    },
+    {
+      "id": "w6",
+      "headword": "stop",
+      "pos": "verb",
+      "gender": "",
+      "ja": "止める",
+      "example": "Mia played near the goal because she was good at stopping the ball.",
+      "forms": ["stopping"]
+    },
+    {
+      "id": "w7",
+      "headword": "pass",
+      "pos": "verb",
+      "gender": "",
+      "ja": "パスする",
+      "example": "A few minutes later, Leo passed the ball to a girl in a yellow shirt.",
+      "forms": ["passed"]
+    },
+    {
+      "id": "w8",
+      "headword": "shirt",
+      "pos": "noun",
+      "gender": "",
+      "ja": "シャツ",
+      "example": "A few minutes later, Leo passed the ball to a girl in a yellow shirt.",
+      "forms": ["shirt"]
+    },
+    {
+      "id": "w9",
+      "headword": "share",
+      "pos": "verb",
+      "gender": "",
+      "ja": "分け合う",
+      "example": "After the game, they sat under a tree and shared some cold water.",
+      "forms": ["shared"]
+    },
+    {
+      "id": "w10",
+      "headword": "tired",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "疲れた",
+      "example": "Leo was tired, but he wanted to play again next Saturday.",
+      "forms": ["tired"]
+    }
+  ]
+}
