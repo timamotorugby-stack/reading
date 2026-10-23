@@ -259,6 +259,36 @@ legend {
   color: var(--paper);
 }
 
+.catalog-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 20px 12px;
+}
+
+.catalog-time {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.catalog-refresh {
+  flex: none;
+  min-height: 32px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.catalog-refresh:disabled { color: var(--muted); }
+
 .count {
   margin: 0;
   padding: 0 20px 10px;

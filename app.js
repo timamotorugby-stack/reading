@@ -29,6 +29,9 @@ const ui = {
 let state = loadState();
 let catalogCache = null;
 let catalogRefresh = true;
+let catalogLoading = false;
+let catalogUpdatedAt = "";
+let catalogLoad = null;
 let renderSeq = 0;
 let speakToken = 0;
 
@@ -460,21 +463,55 @@ function evidenceSentences(article, sentenceId) {
   return sentences.slice(Math.max(0, index - 2), Math.min(sentences.length, index + 2));
 }
 
+function catalogTime(header) {
+  if (!header) return "";
+  const date = new Date(header);
+  return Number.isNaN(date.getTime()) ? "" : date.toISOString();
+}
+
+function catalogUpdatedLabel() {
+  if (!catalogUpdatedAt) return "最終更新は不明です";
+  const date = new Date(catalogUpdatedAt);
+  if (Number.isNaN(date.getTime())) return "最終更新は不明です";
+  const text = new Intl.DateTimeFormat("ja-JP", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).format(date);
+  return `最終更新 ${text}`;
+}
+
 async function loadCatalog() {
+  if (catalogLoad) {
+    catalogRefresh = false;
+    return catalogLoad;
+  }
   const refresh = catalogRefresh || !catalogCache;
   catalogRefresh = false;
-  if (!refresh) return { articles: catalogCache, error: false };
+  if (!refresh && catalogCache) return { articles: catalogCache, error: false };
   const previous = catalogCache;
-  try {
-    const response = await fetch(`content/index.json?t=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error(String(response.status));
-    const data = await response.json();
-    catalogCache = Array.isArray(data.articles) ? data.articles : [];
-    return { articles: catalogCache, error: false };
-  } catch {
-    if (previous) return { articles: previous, error: false };
-    return { articles: [], error: true };
-  }
+  const previousUpdated = catalogUpdatedAt;
+  catalogLoad = (async () => {
+    try {
+      const response = await fetch(`content/index.json?t=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(String(response.status));
+      const data = await response.json();
+      catalogCache = Array.isArray(data.articles) ? data.articles : [];
+      catalogUpdatedAt = catalogTime(response.headers.get("last-modified"));
+      return { articles: catalogCache, error: false };
+    } catch {
+      catalogUpdatedAt = previousUpdated;
+      if (previous) return { articles: previous, error: false };
+      return { articles: [], error: true };
+    } finally {
+      catalogLoad = null;
+      catalogLoading = false;
+    }
+  })();
+  return catalogLoad;
 }
 
 async function loadArticle(id) {
@@ -620,6 +657,21 @@ function chip(label, on, onClick) {
   return button;
 }
 
+function catalogRow() {
+  const row = el("div", "catalog-row");
+  row.append(el("p", "catalog-time", catalogUpdatedLabel()));
+  const button = el("button", "catalog-refresh", catalogLoading ? "更新中" : "更新");
+  button.disabled = catalogLoading || Boolean(catalogLoad);
+  button.addEventListener("click", () => {
+    if (catalogLoading || catalogLoad) return;
+    catalogLoading = true;
+    catalogRefresh = true;
+    render();
+  });
+  row.append(button);
+  return row;
+}
+
 function libraryScreen(articles, error) {
   const screen = el("div", "screen screen-library");
   screen.append(bar("ライブラリ", "#/"));
@@ -645,7 +697,7 @@ function libraryScreen(articles, error) {
   });
   level.append(levelChips);
   filters.append(language, level);
-  screen.append(filters);
+  screen.append(filters, catalogRow());
 
   if (error) {
     screen.append(el("p", "blank", "目録を読めませんでした。"));
@@ -1444,8 +1496,10 @@ async function render() {
     return;
   }
   if (route.name === "library") {
+    if (catalogLoading && catalogCache) app.replaceChildren(libraryScreen(catalogCache, false));
     const loaded = await loadCatalog();
     if (seq !== renderSeq) return;
+    catalogLoading = false;
     app.replaceChildren(libraryScreen(loaded.articles, loaded.error));
     return;
   }
