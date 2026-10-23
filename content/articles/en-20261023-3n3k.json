@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "en-20261023-3n3k",
+  "language": "en",
+  "level": 2,
+  "topic": "ラグビー",
+  "title": "Emma's Rugby Practice",
+  "created": "2026-10-23",
+  "body": "On Saturday afternoon, Emma stood on a wet rugby field with her school team. Their coach, Ben, asked them to practice passing the ball before their match. Emma was nervous because she often dropped the ball when she ran. Her friend Jack told her to hold it with both hands and move slowly at first. They practiced near the white line while the other players waited behind them. After three tries, Emma caught Jack's pass and ran toward the end of the field. She passed the ball back to Jack, and he scored a try. Ben smiled and said that good teamwork was more important than running fast.",
+  "wordCount": 108,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "On Saturday afternoon, Emma stood on a wet rugby field with her school team."
+    },
+    {
+      "id": "s2",
+      "text": "Their coach, Ben, asked them to practice passing the ball before their match."
+    },
+    {
+      "id": "s3",
+      "text": "Emma was nervous because she often dropped the ball when she ran."
+    },
+    {
+      "id": "s4",
+      "text": "Her friend Jack told her to hold it with both hands and move slowly at first."
+    },
+    {
+      "id": "s5",
+      "text": "They practiced near the white line while the other players waited behind them."
+    },
+    {
+      "id": "s6",
+      "text": "After three tries, Emma caught Jack's pass and ran toward the end of the field."
+    },
+    {
+      "id": "s7",
+      "text": "She passed the ball back to Jack, and he scored a try."
+    },
+    {
+      "id": "s8",
+      "text": "Ben smiled and said that good teamwork was more important than running fast."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "choice",
+      "prompt": "土曜日の午後、エマはどこにいましたか。",
+      "choices": ["学校の体育館", "ぬれたラグビー場", "家の庭", "公園の入り口"],
+      "answer": "ぬれたラグビー場",
+      "evidenceSentenceId": "s1"
+    },
+    {
+      "id": "q2",
+      "kind": "choice",
+      "prompt": "ジャックはエマに、最初はどうするように言いましたか。",
+      "choices": ["片手でボールを持ち、速く走る", "ボールを地面に置き、後ろに下がる", "両手でボールを持ち、ゆっくり動く", "ボールを高く投げ、その場で待つ"],
+      "answer": "両手でボールを持ち、ゆっくり動く",
+      "evidenceSentenceId": "s4"
+    },
+    {
+      "id": "q3",
+      "kind": "choice",
+      "prompt": "エマがボールを返したあと、ジャックは何をしましたか。",
+      "choices": ["ボールを落とした", "練習をやめた", "コーチを呼んだ", "トライを決めた"],
+      "answer": "トライを決めた",
+      "evidenceSentenceId": "s7"
+    }
+  ],
+  "words": [
+    {
+      "id": "w1",
+      "headword": "rugby",
+      "pos": "noun",
+      "gender": "",
+      "ja": "ラグビー",
+      "example": "On Saturday afternoon, Emma stood on a wet rugby field with her school team.",
+      "forms": ["rugby"]
+    },
+    {
+      "id": "w2",
+      "headword": "wet",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "ぬれた",
+      "example": "On Saturday afternoon, Emma stood on a wet rugby field with her school team.",
+      "forms": ["wet"]
+    },
+    {
+      "id": "w3",
+      "headword": "field",
+      "pos": "noun",
+      "gender": "",
+      "ja": "競技場、グラウンド",
+      "example": "On Saturday afternoon, Emma stood on a wet rugby field with her school team.",
+      "forms": ["field"]
+    },
+    {
+      "id": "w4",
+      "headword": "coach",
+      "pos": "noun",
+      "gender": "",
+      "ja": "コーチ、指導者",
+      "example": "Their coach, Ben, asked them to practice passing the ball before their match.",
+      "forms": ["coach"]
+    },
+    {
+      "id": "w5",
+      "headword": "practice",
+      "pos": "verb",
+      "gender": "",
+      "ja": "練習する",
+      "example": "Their coach, Ben, asked them to practice passing the ball before their match.",
+      "forms": ["practice"]
+    },
+    {
+      "id": "w6",
+      "headword": "nervous",
+      "pos": "adjective",
+      "gender": "",
+      "ja": "緊張している",
+      "example": "Emma was nervous because she often dropped the ball when she ran.",
+      "forms": ["nervous"]
+    },
+    {
+      "id": "w7",
+      "headword": "hold",
+      "pos": "verb",
+      "gender": "",
+      "ja": "持つ",
+      "example": "Her friend Jack told her to hold it with both hands and move slowly at first.",
+      "forms": ["hold"]
+    },
+    {
+      "id": "w8",
+      "headword": "slowly",
+      "pos": "adverb",
+      "gender": "",
+      "ja": "ゆっくりと",
+      "example": "Her friend Jack told her to hold it with both hands and move slowly at first.",
+      "forms": ["slowly"]
+    },
+    {
+      "id": "w9",
+      "headword": "pass",
+      "pos": "noun",
+      "gender": "",
+      "ja": "パス",
+      "example": "After three tries, Emma caught Jack's pass and ran toward the end of the field.",
+      "forms": ["pass"]
+    },
+    {
+      "id": "w10",
+      "headword": "teamwork",
+      "pos": "noun",
+      "gender": "",
+      "ja": "チームワーク、協力",
+      "example": "Ben smiled and said that good teamwork was more important than running fast.",
+      "forms": ["teamwork"]
+    }
+  ]
+}
