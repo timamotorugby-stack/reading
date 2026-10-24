@@ -1030,15 +1030,44 @@ function freeQuestion(article, last, question) {
   const wrap = el("div");
   wrap.append(el("p", "prompt", question.prompt || ""));
   const saved = questionRecord(article.id, question.id) || {};
+  const revealed = Boolean(saved.checked || saved.grade);
   const area = el("textarea", "write");
   area.value = saved.text || "";
-  area.addEventListener("input", () => {
-    const bucket = ensureReadings(article.id);
-    const prev = bucket.questions[question.id] || {};
-    bucket.questions[question.id] = { ...prev, kind: "free", text: area.value };
-    save();
-  });
+  area.setAttribute("aria-label", "答え");
+  if (revealed) area.readOnly = true;
   wrap.append(area);
+
+  if (!revealed) {
+    const confirm = el("button", "primary confirm", "確認");
+    confirm.disabled = !area.value.trim();
+    area.addEventListener("input", () => {
+      const bucket = ensureReadings(article.id);
+      const prev = bucket.questions[question.id] || {};
+      bucket.questions[question.id] = { ...prev, kind: "free", text: area.value };
+      save();
+      confirm.disabled = !area.value.trim();
+    });
+    confirm.addEventListener("click", () => {
+      if (!area.value.trim()) return;
+      const bucket = ensureReadings(article.id);
+      bucket.questions[question.id] = { kind: "free", text: area.value, checked: true };
+      save();
+      render();
+    });
+    wrap.append(confirm);
+    return wrap;
+  }
+
+  const sentences = Array.isArray(article.sentences) ? article.sentences : [];
+  const sentence = sentences.find((item) => item.id === question.evidenceSentenceId);
+  if (sentence && sentence.text) {
+    const card = el("div", "model");
+    const line = el("p", "sentence", sentence.text);
+    line.lang = textLang(article.language);
+    card.append(el("p", "status", "正解の表現"), line);
+    wrap.append(card);
+  }
+
   const trio = el("div", "trio");
   trio.setAttribute("role", "group");
   trio.setAttribute("aria-label", "自己採点");
@@ -1047,16 +1076,11 @@ function freeQuestion(article, last, question) {
     const button = el("button", on ? "is-on" : "", label);
     button.setAttribute("aria-pressed", on ? "true" : "false");
     button.addEventListener("click", () => {
-      if (saved.grade === grade) {
-        advanceQuestion(article, last);
-        return;
-      }
       const bucket = ensureReadings(article.id);
       const prev = bucket.questions[question.id] || {};
-      bucket.questions[question.id] = { ...prev, kind: "free", text: area.value, grade };
+      bucket.questions[question.id] = { ...prev, kind: "free", text: area.value, checked: true, grade };
       save();
-      ui.questionPhase = "ask";
-      render();
+      advanceQuestion(article, last);
     });
     trio.append(button);
   });

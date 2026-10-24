@@ -638,6 +638,21 @@ button.result {
   resize: none;
 }
 
+.confirm { margin-top: 14px; }
+
+.confirm:disabled {
+  background: var(--line);
+  color: var(--muted);
+  cursor: default;
+}
+
+.model {
+  margin-top: 14px;
+  padding: 12px 14px 14px;
+  background: var(--mark);
+  border-radius: 12px;
+}
+
 .trio {
   display: flex;
   gap: 8px;
